@@ -26,6 +26,10 @@ def consolidate_cart(cart)
 else
   items[:count] = 1
   new_cart << items
+end
+index += 1
+end
+new_cart
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
