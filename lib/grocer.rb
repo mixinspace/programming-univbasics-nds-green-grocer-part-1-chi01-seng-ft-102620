@@ -13,11 +13,11 @@ def consolidate_cart(cart)
   index = 0
   new_cart = []
 
-  cart.each do |items| 
+  cart.each do |items|
   item = find_item_by_name_in_collection(items[:item], new_cart)
   if item
     new_cart_index = 0
-    new_cart.each { |cart_item| }
+    new_cart.each do |cart_item| 
     if cart_item[:item] === item[:item]
       cart_item[:count] += 1
     end
