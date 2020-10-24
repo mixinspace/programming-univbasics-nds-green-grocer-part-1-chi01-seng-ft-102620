@@ -3,7 +3,7 @@ def find_item_by_name_in_collection(name, collection)
   #
   index = 0
   collection.each do |items|
-    return items if items[:item] === name
+    return items if items[:a] === name
       index += 1
     end
 end
