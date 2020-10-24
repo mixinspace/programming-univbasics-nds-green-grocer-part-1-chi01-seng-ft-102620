@@ -2,8 +2,8 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
   index = 0
-  collection.each do |item|
-    return item if item[:item] === name
+  collection.each do |items|
+    return items if items[:item] === name
       index += 1
     end
 end
